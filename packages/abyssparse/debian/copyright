@@ -1,5 +1,5 @@
 Upstream: https://github.com/AbyssWM/Abyssparse
-Pinned source: dcd10adbf858a4f0128a04938878844d935298d9
+Pinned source: 45d399ec11762312395d62f1e66f6d3c4b53c482
 
 Original license and notices:
 
@@ -170,3 +170,12 @@ permanent authorization for you to choose that version for the
 Library.
 
 Packaging: Copyright 2026 bb8TheRobot; 0BSD (see repository LICENSE).
+
+
+Upstream and fork copyright notices:
+Copyright: Copyright (C) 2023-2024 Hypr Development <vaxry@vaxry.net>
+Copyright: Copyright (C) 2026 AbyssWM
+License: LGPL-3.0-Only
+The LGPLv3 above incorporates GPLv3. On Debian/Ubuntu, the complete GPLv3
+text is also provided in /usr/share/common-licenses/GPL-3. Both license
+texts and the copyright notice are included in the upstream source archive.

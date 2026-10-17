@@ -30,3 +30,5 @@ separate Debian packaging. A PPA does not automatically become enabled on Mint.
 Maintainer: bb8TheRobot <bb8therobot85@gmail.com>. Packaging: 0BSD.
 Original source notices and licenses remain applicable. Source attribution and
 packaging-policy review remain release prerequisites.
+
+License scope and the retained upstream notices are described in [LICENSES.md](LICENSES.md).
