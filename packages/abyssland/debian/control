@@ -1,0 +1,14 @@
+Source: abyssland
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, abyssland-protocols, cmake, debhelper-compat (= 13), glslang-dev, libabyssal-dev (>= 0.15.0), libabysscursor-dev (>= 0.1.13), libabyssgraphics-dev (>= 0.5.1), libabyssutils-dev (>= 0.14.2), libabysswire-dev (>= 0.3.1), libcairo2-dev, libdrm-dev, libegl-dev, libei-dev, libgbm-dev, libgles-dev, libglib2.0-dev, libinput-dev, liblcms2-dev, libmuparser-dev, libopengl-dev, libpango1.0-dev, libpixman-1-dev, libre2-dev, libreadline-dev, libudis86-dev, libwayland-dev, libxcb-composite0-dev, libxcb-errors-dev, libxcb-icccm4-dev, libxcb-keysyms1-dev, libxcb-render-util0-dev, libxcb-render0-dev, libxcb-res0-dev, libxcb-xfixes0-dev, libxcb1-dev, libxcursor-dev, libxkbcommon-dev, ninja-build, pkgconf, python3, spirv-tools, uuid-dev, wayland-protocols
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyssland
+Rules-Requires-Root: no
+
+Package: abyssland
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dbus, xwayland
+Description: Dynamic tiling Wayland compositor with C++ configuration
+ Experimental snapshot from the independently maintained Abyss ecosystem.

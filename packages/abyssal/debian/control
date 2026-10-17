@@ -1,0 +1,21 @@
+Source: abyssal
+Section: libs
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, cmake, debhelper-compat (= 13), hwdata, libabyssutils-dev (>= 0.14.2), libdisplay-info-dev, libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libinput-dev, libopengl-dev, libpixman-1-dev, libseat-dev, libudev-dev, libwayland-dev, ninja-build, pkgconf, wayland-protocols
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyssal
+Rules-Requires-Root: no
+
+Package: libabyssal14
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Rendering and display backend library for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.
+
+Package: libabyssal-dev
+Section: libdevel
+Architecture: any
+Depends: libabyssal14 (= ${binary:Version}), ${misc:Depends}, abyss-scanner, hwdata, libabyssutils-dev (>= 0.14.2), libdisplay-info-dev, libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libinput-dev, libopengl-dev, libpixman-1-dev, libseat-dev, libudev-dev, libwayland-dev, wayland-protocols
+Description: Rendering and display backend library for Abyss - development files
+ Headers and build metadata for the pinned Abyss development snapshot.

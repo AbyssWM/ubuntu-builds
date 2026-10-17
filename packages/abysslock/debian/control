@@ -1,0 +1,14 @@
+Source: abysslock
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, cmake, debhelper-compat (= 13), libabyssgraphics-dev (>= 0.5.1), libabyssparse-dev (>= 0.6.8), libabyssutils-dev (>= 0.14.2), libcairo2-dev, libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libopengl-dev, libpam0g-dev, libpango1.0-dev, libsdbus-c++-dev, libwayland-dev, libxkbcommon-dev, ninja-build, pkgconf, wayland-protocols
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/AbyssLock
+Rules-Requires-Root: no
+
+Package: abysslock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wayland session lock for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

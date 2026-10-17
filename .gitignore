@@ -1,0 +1,13 @@
+out/
+__pycache__/
+*.pyc
+*.pkg.tar.*
+*.rpm
+*.src.rpm
+*.deb
+*.dsc
+*.changes
+*.buildinfo
+*.tar.*
+*.pem
+*.key

@@ -1,0 +1,3 @@
+usr/include/*
+usr/lib/*/libabyssal.so
+usr/lib/*/pkgconfig/*

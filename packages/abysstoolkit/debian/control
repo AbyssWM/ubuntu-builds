@@ -1,0 +1,21 @@
+Source: abysstoolkit
+Section: libs
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, cmake, debhelper-compat (= 13), libabsl-dev, libabyssal-dev (>= 0.15.0), libabyssgraphics-dev (>= 0.5.1), libabyssparse-dev (>= 0.6.8), libabyssutils-dev (>= 0.14.2), libcairo2-dev, libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libiniparser-dev, libopengl-dev, libpango1.0-dev, libpixman-1-dev, libwayland-dev, libxkbcommon-dev, ninja-build, pkgconf, wayland-protocols
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abysstoolkit
+Rules-Requires-Root: no
+
+Package: libabysstoolkit6
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
+Description: Native graphical toolkit and config preprocessor for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.
+
+Package: libabysstoolkit-dev
+Section: libdevel
+Architecture: any
+Depends: libabysstoolkit6 (= ${binary:Version}), ${misc:Depends}, abyss-scanner, libabsl-dev, libabyssal-dev (>= 0.15.0), libabyssgraphics-dev (>= 0.5.1), libabyssparse-dev (>= 0.6.8), libabyssutils-dev (>= 0.14.2), libcairo2-dev, libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libiniparser-dev, libopengl-dev, libpango1.0-dev, libpixman-1-dev, libwayland-dev, libxkbcommon-dev, wayland-protocols
+Description: Native graphical toolkit and config preprocessor for Abyss - development files
+ Headers and build metadata for the pinned Abyss development snapshot.

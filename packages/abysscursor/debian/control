@@ -1,0 +1,21 @@
+Source: abysscursor
+Section: libs
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libabyssparse-dev (>= 0.6.8), libcairo2-dev, librsvg2-dev, libtomlplusplus-dev, libzip-dev, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abysscursor
+Rules-Requires-Root: no
+
+Package: libabysscursor0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Cursor library and theme tools for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.
+
+Package: libabysscursor-dev
+Section: libdevel
+Architecture: any
+Depends: libabysscursor0 (= ${binary:Version}), ${misc:Depends}, libabyssparse-dev (>= 0.6.8), libcairo2-dev, librsvg2-dev, libtomlplusplus-dev, libzip-dev
+Description: Cursor library and theme tools for Abyss - development files
+ Headers and build metadata for the pinned Abyss development snapshot.

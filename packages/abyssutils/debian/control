@@ -1,0 +1,21 @@
+Source: abyssutils
+Section: libs
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libpixman-1-dev, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyssutils
+Rules-Requires-Root: no
+
+Package: libabyssutils13
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Utility library for the Abyss ecosystem
+ Experimental snapshot from the independently maintained Abyss ecosystem.
+
+Package: libabyssutils-dev
+Section: libdevel
+Architecture: any
+Depends: libabyssutils13 (= ${binary:Version}), ${misc:Depends}, libpixman-1-dev
+Description: Utility library for the Abyss ecosystem - development files
+ Headers and build metadata for the pinned Abyss development snapshot.

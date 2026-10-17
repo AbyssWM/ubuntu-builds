@@ -1,0 +1,14 @@
+Source: abyssdusk
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, abyssland-protocols, cmake, debhelper-compat (= 13), libabyssparse-dev (>= 0.6.8), libabyssutils-dev (>= 0.14.2), libwayland-dev, ninja-build, pkgconf, wayland-protocols
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/AbyssDusk
+Rules-Requires-Root: no
+
+Package: abyssdusk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Display color temperature manager for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

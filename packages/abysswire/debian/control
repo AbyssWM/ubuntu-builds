@@ -1,0 +1,21 @@
+Source: abysswire
+Section: libs
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libabyssutils-dev (>= 0.14.2), libffi-dev, libpugixml-dev, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abysswire
+Rules-Requires-Root: no
+
+Package: libabysswire3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: IPC wire protocol library and scanner for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.
+
+Package: libabysswire-dev
+Section: libdevel
+Architecture: any
+Depends: libabysswire3 (= ${binary:Version}), ${misc:Depends}, libabyssutils-dev (>= 0.14.2), libffi-dev, libpugixml-dev
+Description: IPC wire protocol library and scanner for Abyss - development files
+ Headers and build metadata for the pinned Abyss development snapshot.

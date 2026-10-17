@@ -1,0 +1,5 @@
+abyss-scanner (0.4.5+git20261017.84f54bf-1~ubuntu1) UNRELEASED; urgency=medium
+
+  * Package the explicitly pinned experimental Abyss snapshot.
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Sat, 17 Oct 2026 14:00:00 +0000

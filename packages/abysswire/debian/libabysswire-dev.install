@@ -1,0 +1,4 @@
+usr/include/*
+usr/lib/*/libabysswire.so
+usr/lib/*/pkgconfig/*
+usr/lib/*/cmake/abysswire-scanner/*

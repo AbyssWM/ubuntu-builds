@@ -1,0 +1,560 @@
+{
+  "pixman": {
+    "arch": [
+      "pixman"
+    ],
+    "deb": [
+      "libpixman-1-dev"
+    ],
+    "pc": [
+      "pixman-1"
+    ]
+  },
+  "pugixml": {
+    "arch": [
+      "pugixml"
+    ],
+    "deb": [
+      "libpugixml-dev"
+    ],
+    "pc": [
+      "pugixml"
+    ]
+  },
+  "ffi": {
+    "arch": [
+      "libffi"
+    ],
+    "deb": [
+      "libffi-dev"
+    ],
+    "pc": [
+      "libffi"
+    ]
+  },
+  "cairo": {
+    "arch": [
+      "cairo"
+    ],
+    "deb": [
+      "libcairo2-dev"
+    ],
+    "pc": [
+      "cairo"
+    ]
+  },
+  "pango": {
+    "arch": [
+      "pango"
+    ],
+    "deb": [
+      "libpango1.0-dev"
+    ],
+    "pc": [
+      "pangocairo"
+    ]
+  },
+  "jpeg": {
+    "arch": [
+      "libjpeg-turbo"
+    ],
+    "deb": [
+      "libjpeg-dev"
+    ],
+    "pc": [
+      "libjpeg"
+    ]
+  },
+  "webp": {
+    "arch": [
+      "libwebp"
+    ],
+    "deb": [
+      "libwebp-dev"
+    ],
+    "pc": [
+      "libwebp"
+    ]
+  },
+  "magic": {
+    "arch": [
+      "file"
+    ],
+    "deb": [
+      "libmagic-dev"
+    ],
+    "pc": [
+      "libmagic"
+    ]
+  },
+  "png": {
+    "arch": [
+      "libpng"
+    ],
+    "deb": [
+      "libpng-dev"
+    ],
+    "pc": [
+      "libpng"
+    ]
+  },
+  "rsvg": {
+    "arch": [
+      "librsvg"
+    ],
+    "deb": [
+      "librsvg2-dev"
+    ],
+    "pc": [
+      "librsvg-2.0"
+    ]
+  },
+  "jxl": {
+    "arch": [
+      "libjxl"
+    ],
+    "deb": [
+      "libjxl-dev"
+    ],
+    "pc": [
+      "libjxl"
+    ]
+  },
+  "heif": {
+    "arch": [
+      "libheif"
+    ],
+    "deb": [
+      "libheif-dev"
+    ],
+    "pc": [
+      "libheif"
+    ]
+  },
+  "drm": {
+    "arch": [
+      "libdrm"
+    ],
+    "deb": [
+      "libdrm-dev"
+    ],
+    "pc": [
+      "libdrm"
+    ]
+  },
+  "mesa": {
+    "arch": [
+      "mesa"
+    ],
+    "deb": [
+      "libegl-dev",
+      "libgbm-dev",
+      "libgles-dev"
+    ],
+    "pc": [
+      "egl",
+      "gbm",
+      "glesv2"
+    ]
+  },
+  "glvnd": {
+    "arch": [
+      "libglvnd"
+    ],
+    "deb": [
+      "libopengl-dev"
+    ],
+    "pc": [
+      "gl"
+    ]
+  },
+  "seat": {
+    "arch": [
+      "seatd"
+    ],
+    "deb": [
+      "libseat-dev"
+    ],
+    "pc": [
+      "libseat"
+    ]
+  },
+  "input": {
+    "arch": [
+      "libinput"
+    ],
+    "deb": [
+      "libinput-dev"
+    ],
+    "pc": [
+      "libinput"
+    ]
+  },
+  "wayland": {
+    "arch": [
+      "wayland"
+    ],
+    "deb": [
+      "libwayland-dev"
+    ],
+    "pc": [
+      "wayland-client",
+      "wayland-server",
+      "wayland-egl"
+    ]
+  },
+  "wayland-protocols": {
+    "arch": [
+      "wayland-protocols"
+    ],
+    "deb": [
+      "wayland-protocols"
+    ],
+    "pc": [
+      "wayland-protocols"
+    ]
+  },
+  "udev": {
+    "arch": [
+      "systemd-libs"
+    ],
+    "deb": [
+      "libudev-dev"
+    ],
+    "pc": [
+      "libudev"
+    ]
+  },
+  "display-info": {
+    "arch": [
+      "libdisplay-info"
+    ],
+    "deb": [
+      "libdisplay-info-dev"
+    ],
+    "pc": [
+      "libdisplay-info"
+    ]
+  },
+  "hwdata": {
+    "arch": [
+      "hwdata"
+    ],
+    "deb": [
+      "hwdata"
+    ],
+    "pc": [
+      "hwdata"
+    ]
+  },
+  "xkb": {
+    "arch": [
+      "libxkbcommon"
+    ],
+    "deb": [
+      "libxkbcommon-dev"
+    ],
+    "pc": [
+      "xkbcommon"
+    ]
+  },
+  "iniparser": {
+    "arch": [
+      "iniparser"
+    ],
+    "deb": [
+      "libiniparser-dev"
+    ],
+    "pc": [
+      "iniparser"
+    ]
+  },
+  "abseil": {
+    "arch": [
+      "abseil-cpp"
+    ],
+    "deb": [
+      "libabsl-dev"
+    ],
+    "pc": [
+      "absl_flat_hash_map"
+    ]
+  },
+  "zip": {
+    "arch": [
+      "libzip"
+    ],
+    "deb": [
+      "libzip-dev"
+    ],
+    "pc": [
+      "libzip"
+    ]
+  },
+  "toml": {
+    "arch": [
+      "tomlplusplus"
+    ],
+    "deb": [
+      "libtomlplusplus-dev"
+    ],
+    "pc": [
+      "tomlplusplus"
+    ]
+  },
+  "uuid": {
+    "arch": [
+      "util-linux-libs"
+    ],
+    "deb": [
+      "uuid-dev"
+    ],
+    "pc": [
+      "uuid"
+    ]
+  },
+  "re2": {
+    "arch": [
+      "re2"
+    ],
+    "deb": [
+      "libre2-dev"
+    ],
+    "pc": [
+      "re2"
+    ]
+  },
+  "muparser": {
+    "arch": [
+      "muparser"
+    ],
+    "deb": [
+      "libmuparser-dev"
+    ],
+    "pc": [
+      "muparser"
+    ]
+  },
+  "lcms": {
+    "arch": [
+      "lcms2"
+    ],
+    "deb": [
+      "liblcms2-dev"
+    ],
+    "pc": [
+      "lcms2"
+    ]
+  },
+  "ei": {
+    "arch": [
+      "libei"
+    ],
+    "deb": [
+      "libei-dev"
+    ],
+    "pc": [
+      "libeis-1.0"
+    ]
+  },
+  "glib": {
+    "arch": [
+      "glib2"
+    ],
+    "deb": [
+      "libglib2.0-dev"
+    ],
+    "pc": [
+      "gio-2.0"
+    ]
+  },
+  "glslang": {
+    "arch": [
+      "glslang"
+    ],
+    "deb": [
+      "glslang-dev"
+    ],
+    "pc": [
+      "glslang"
+    ]
+  },
+  "spirv": {
+    "arch": [
+      "spirv-tools"
+    ],
+    "deb": [
+      "spirv-tools"
+    ],
+    "pc": [
+      "SPIRV-Tools"
+    ]
+  },
+  "udis": {
+    "arch": [],
+    "deb": [
+      "libudis86-dev"
+    ],
+    "pc": []
+  },
+  "xcursor": {
+    "arch": [
+      "libxcursor"
+    ],
+    "deb": [
+      "libxcursor-dev"
+    ],
+    "pc": [
+      "xcursor"
+    ]
+  },
+  "xcb": {
+    "arch": [
+      "libxcb"
+    ],
+    "deb": [
+      "libxcb1-dev",
+      "libxcb-composite0-dev",
+      "libxcb-render0-dev",
+      "libxcb-xfixes0-dev",
+      "libxcb-res0-dev"
+    ],
+    "pc": [
+      "xcb",
+      "xcb-composite",
+      "xcb-render",
+      "xcb-xfixes",
+      "xcb-res"
+    ]
+  },
+  "xcb-wm": {
+    "arch": [
+      "xcb-util-wm"
+    ],
+    "deb": [
+      "libxcb-icccm4-dev"
+    ],
+    "pc": [
+      "xcb-icccm"
+    ]
+  },
+  "xcb-errors": {
+    "arch": [
+      "xcb-util-errors"
+    ],
+    "deb": [
+      "libxcb-errors-dev"
+    ],
+    "pc": [
+      "xcb-errors"
+    ]
+  },
+  "xcb-render": {
+    "arch": [
+      "xcb-util-renderutil"
+    ],
+    "deb": [
+      "libxcb-render-util0-dev"
+    ],
+    "pc": [
+      "xcb-renderutil"
+    ]
+  },
+  "xcb-keysyms": {
+    "arch": [
+      "xcb-util-keysyms"
+    ],
+    "deb": [
+      "libxcb-keysyms1-dev"
+    ],
+    "pc": [
+      "xcb-keysyms"
+    ]
+  },
+  "pipewire": {
+    "arch": [
+      "pipewire"
+    ],
+    "deb": [
+      "libpipewire-0.3-dev",
+      "libspa-0.2-dev"
+    ],
+    "pc": [
+      "libpipewire-0.3",
+      "libspa-0.2"
+    ]
+  },
+  "sdbus": {
+    "arch": [
+      "sdbus-cpp"
+    ],
+    "deb": [
+      "libsdbus-c++-dev"
+    ],
+    "pc": [
+      "sdbus-c++"
+    ]
+  },
+  "qt": {
+    "arch": [
+      "qt6-base"
+    ],
+    "deb": [
+      "qt6-base-dev"
+    ],
+    "pc": [
+      "Qt6Widgets"
+    ]
+  },
+  "pam": {
+    "arch": [
+      "pam"
+    ],
+    "deb": [
+      "libpam0g-dev"
+    ],
+    "pc": []
+  },
+  "mpv": {
+    "arch": [
+      "mpv"
+    ],
+    "deb": [
+      "libmpv-dev"
+    ],
+    "pc": [
+      "mpv"
+    ]
+  },
+  "python": {
+    "arch": [
+      "python"
+    ],
+    "deb": [
+      "python3"
+    ],
+    "pc": []
+  },
+  "gtest": {
+    "arch": [
+      "gtest"
+    ],
+    "deb": [
+      "libgtest-dev"
+    ],
+    "pc": [
+      "gtest"
+    ]
+  },
+  "readline": {
+    "arch": [
+      "readline"
+    ],
+    "deb": [
+      "libreadline-dev"
+    ],
+    "pc": [
+      "readline"
+    ]
+  }
+}

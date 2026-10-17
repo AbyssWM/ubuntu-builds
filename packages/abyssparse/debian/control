@@ -1,0 +1,21 @@
+Source: abyssparse
+Section: libs
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libabyssutils-dev (>= 0.14.2), ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyssparse
+Rules-Requires-Root: no
+
+Package: libabyssparse2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Configuration parsing library for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.
+
+Package: libabyssparse-dev
+Section: libdevel
+Architecture: any
+Depends: libabyssparse2 (= ${binary:Version}), ${misc:Depends}, libabyssutils-dev (>= 0.14.2)
+Description: Configuration parsing library for Abyss - development files
+ Headers and build metadata for the pinned Abyss development snapshot.

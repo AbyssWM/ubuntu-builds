@@ -1,0 +1,3 @@
+usr/include/*
+usr/lib/*/libabyssutils.so
+usr/lib/*/pkgconfig/*

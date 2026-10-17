@@ -1,0 +1,3 @@
+usr/include/*
+usr/lib/*/libabyssgraphics.so
+usr/lib/*/pkgconfig/*

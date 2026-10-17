@@ -1,0 +1,3 @@
+usr/include/*
+usr/lib/*/libabysscursor.so
+usr/lib/*/pkgconfig/*

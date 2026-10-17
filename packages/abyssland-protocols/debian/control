@@ -1,0 +1,14 @@
+Source: abyssland-protocols
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: debhelper-compat (= 13), meson, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyssland-protocols
+Rules-Requires-Root: no
+
+Package: abyssland-protocols
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wayland protocol extensions for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

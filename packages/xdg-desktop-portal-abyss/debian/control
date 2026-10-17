@@ -1,0 +1,14 @@
+Source: xdg-desktop-portal-abyss
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, abyssland-protocols, cmake, debhelper-compat (= 13), libabyssparse-dev (>= 0.6.8), libabyssutils-dev (>= 0.14.2), libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libpipewire-0.3-dev, libsdbus-c++-dev, libspa-0.2-dev, libwayland-dev, ninja-build, pkgconf, qt6-base-dev, uuid-dev, wayland-protocols
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Xdg-desktop-portal-abyss
+Rules-Requires-Root: no
+
+Package: xdg-desktop-portal-abyss
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, xdg-desktop-portal, qt6-wayland
+Description: Desktop portal and screen sharing picker for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

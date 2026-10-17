@@ -1,0 +1,5 @@
+Sources are pinned by sources.json in this distro repository.
+Use tools/prepare-source.py to verify and assemble the upstream source tree.
+Abyssland includes the separately checksummed Glaze source under .deps/.
+No private user config or signing key is part of the source package.
+Native clean-room build and lintian validation are still required.

@@ -1,0 +1,14 @@
+Source: abyss-scanner
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libpugixml-dev, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyss-scanner
+Rules-Requires-Root: no
+
+Package: abyss-scanner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: C++ Wayland protocol scanner for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

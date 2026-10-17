@@ -1,0 +1,14 @@
+Source: abyss-guiutils
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), libabyssparse-dev (>= 0.6.8), libabysstoolkit-dev (>= 0.6.0), libabyssutils-dev (>= 0.14.2), libdrm-dev, libpixman-1-dev, libxkbcommon-dev, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/Abyss-guiutils
+Rules-Requires-Root: no
+
+Package: abyss-guiutils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Dialogs and application tools for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

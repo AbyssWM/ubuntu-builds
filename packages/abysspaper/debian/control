@@ -1,0 +1,14 @@
+Source: abysspaper
+Section: x11
+Priority: optional
+Maintainer: bb8TheRobot <bb8therobot85@gmail.com>
+Build-Depends: abyss-scanner, cmake, debhelper-compat (= 13), libabyssparse-dev (>= 0.6.8), libabysstoolkit-dev (>= 0.6.0), libabyssutils-dev (>= 0.14.2), libabysswire-dev (>= 0.3.1), libdrm-dev, libegl-dev, libgbm-dev, libgles-dev, libmpv-dev, libopengl-dev, libpixman-1-dev, libwayland-dev, ninja-build, pkgconf
+Standards-Version: 4.7.0
+Homepage: https://github.com/AbyssWM/AbyssPaper
+Rules-Requires-Root: no
+
+Package: abysspaper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wallpaper manager for Abyss
+ Experimental snapshot from the independently maintained Abyss ecosystem.

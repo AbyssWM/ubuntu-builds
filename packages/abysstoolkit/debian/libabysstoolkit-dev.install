@@ -1,0 +1,4 @@
+usr/include/*
+usr/lib/*/libabysstoolkit.so
+usr/lib/*/pkgconfig/*
+usr/share/abysstoolkit/cmake/*

@@ -1,0 +1,3 @@
+usr/include/*
+usr/lib/*/libabyssparse.so
+usr/lib/*/pkgconfig/*
