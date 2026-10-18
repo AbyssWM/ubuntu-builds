@@ -22,6 +22,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build and install every package
+        env:
+          # the packages are built without their test suites, as for the published releases
+          DEB_BUILD_OPTIONS: nocheck
         run: |
           set -eu
           order=$(python3 -c 'import json; s=json.load(open("sources.json")); c=json.load(open("catalog.json")); print(" ".join(c["packages"][p["repo"]]["name"] for p in s["packages"]))')
