@@ -1,3 +1,9 @@
+abyssland (0.56.2+git20261018.6c90ce0-1~ubuntu1) stonking; urgency=medium
+
+  * Update to Abyssland 6c90ce0: start-abyssland: append to start-abyssland.log
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Sun, 18 Oct 2026 21:18:06 +0000
+
 abyssland (0.56.2+git20261018.c30ad2a-1~ubuntu1) stonking; urgency=medium
 
   * Update to Abyssland c30ad2a: Abyss start logo and dark blue default colors,
