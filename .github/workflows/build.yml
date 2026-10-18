@@ -1,0 +1,41 @@
+# Builds all 17 Abyss packages in dependency order in the official ubuntu:26.10 image,
+# installing each one before the next is built. The .deb files are attached to the run.
+name: Build packages
+
+on:
+  push:
+    branches: [main]
+    paths: ["packages/**", "sources.json", "catalog.json", "tools/**", ".github/workflows/build.yml"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ubuntu:26.10
+    timeout-minutes: 300
+    steps:
+      - name: Install build tools
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends build-essential devscripts equivs python3 ca-certificates git
+
+      - uses: actions/checkout@v4
+
+      - name: Build and install every package
+        run: |
+          set -eu
+          order=$(python3 -c 'import json; s=json.load(open("sources.json")); c=json.load(open("catalog.json")); print(" ".join(c["packages"][p["repo"]]["name"] for p in s["packages"]))')
+          mkdir -p out debs
+          for p in $order; do
+            echo "::group::$p"
+            tree=$(python3 tools/prepare-source.py "$p" --out "out/$p" --cache out/distfiles | head -1)
+            (cd "$tree" && mk-build-deps -i -r -t "apt-get -y --no-install-recommends" debian/control && dpkg-buildpackage -b -us -uc -j$(nproc))
+            mv out/$p/*.deb debs/
+            apt-get install -y ./debs/*.deb
+            echo "::endgroup::"
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: debs-ubuntu-26.10
+          path: debs/*.deb

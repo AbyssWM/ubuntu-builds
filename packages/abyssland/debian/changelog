@@ -1,3 +1,12 @@
+abyssland (0.56.2+git20261018.c30ad2a-1~ubuntu1) stonking; urgency=medium
+
+  * Update to Abyssland c30ad2a: Abyss start logo and dark blue default colors,
+    session setup on every distribution (systemd session target, D-Bus,
+    PipeWire, polkit agent, XDG autostart), abyssctl reload user build,
+    start-abyssland log.
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Sun, 18 Oct 2026 17:00:00 +0000
+
 abyssland (0.56.2+git20261017.eafefb8-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.

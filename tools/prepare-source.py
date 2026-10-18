@@ -22,7 +22,8 @@ catalog = json.loads((root / "catalog.json").read_text())
 source = next((p for p in sources["packages"] if catalog["packages"][p["repo"]]["name"] == args.package), None)
 if source is None:
     parser.error("unknown package")
-version = source["version"] + "+git" + sources["snapshot_date"] + "." + source["commit"][:7]
+# a package updated on its own carries its own snapshot date
+version = source["version"] + "+git" + source.get("snapshot_date", sources["snapshot_date"]) + "." + source["commit"][:7]
 out = args.out.resolve()
 out.mkdir(parents=True, exist_ok=True)
 tree = out / (args.package + "-" + version)
@@ -52,7 +53,7 @@ if args.package == "abyssland":
     dep.mkdir()
     with tarfile.open(verified(sources["extras"]["glaze"])) as archive:
         archive.extractall(dep, filter="data")
-epoch = int(datetime.strptime(sources["snapshot_date"], "%Y%m%d").replace(tzinfo=timezone.utc).timestamp())
+epoch = int(datetime.strptime(source.get("snapshot_date", sources["snapshot_date"]), "%Y%m%d").replace(tzinfo=timezone.utc).timestamp())
 
 
 def normalize(info):
