@@ -1,4 +1,4 @@
-abysspicker (0.4.7+git20261017.fa99785-1~ubuntu1) UNRELEASED; urgency=medium
+abysspicker (0.4.7+git20261017.fa99785-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

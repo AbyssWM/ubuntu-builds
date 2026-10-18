@@ -1,4 +1,4 @@
-abysslock (0.9.6+git20261017.651a5ec-1~ubuntu1) UNRELEASED; urgency=medium
+abysslock (0.9.6+git20261017.651a5ec-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

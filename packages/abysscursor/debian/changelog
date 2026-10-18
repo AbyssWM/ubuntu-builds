@@ -1,4 +1,4 @@
-abysscursor (0.1.13+git20261017.6a762ed-1~ubuntu1) UNRELEASED; urgency=medium
+abysscursor (0.1.13+git20261017.6a762ed-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

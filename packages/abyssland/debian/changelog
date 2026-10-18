@@ -1,4 +1,4 @@
-abyssland (0.56.2+git20261017.eafefb8-1~ubuntu1) UNRELEASED; urgency=medium
+abyssland (0.56.2+git20261017.eafefb8-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

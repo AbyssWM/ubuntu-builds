@@ -1,4 +1,4 @@
-abyssdusk (0.4.0+git20261017.01ad76f-1~ubuntu1) UNRELEASED; urgency=medium
+abyssdusk (0.4.0+git20261017.01ad76f-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

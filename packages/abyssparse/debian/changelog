@@ -1,4 +1,4 @@
-abyssparse (0.6.8+git20261017.45d399e-2~ubuntu1) UNRELEASED; urgency=medium
+abyssparse (0.6.8+git20261017.45d399e-2~ubuntu1) stonking; urgency=medium
 
   * Include restored upstream notices and the complete GPLv3 license text.
 

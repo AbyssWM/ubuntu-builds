@@ -27,6 +27,19 @@ credentials or private signing keys belong in this Git repository.
 Ubuntu-based Mint must be tested against its matching Ubuntu base; LMDE uses the
 separate Debian packaging. A PPA does not automatically become enabled on Mint.
 
+## Verified native builds (2026-10-18)
+
+Built with `dpkg-buildpackage -b` in a private Ubuntu rootfs (unshare user
+namespace, -j2). Target series in the changelogs: `stonking` (26.10).
+
+| Release | Result |
+|---|---|
+| Ubuntu 24.04 noble (Mint 22 base) | Not buildable: CMake 3.28 maps C++26 to gnu++23 (GCC 14 libstdc++ then lacks `ofstream::native_handle`), and `libudis86-dev` and `libxcb-errors-dev` do not exist. |
+| Ubuntu 26.04 resolute | abyssland not buildable: wayland-protocols is 1.47 (needs >= 1.49). Other libraries build. |
+| Ubuntu 26.10 stonking | 17 of 17 build and install in dependency order. |
+
+Fixes found by the native builds: abyssland needs `glslang-tools` and `libeis-dev`.
+
 Maintainer: bb8TheRobot <bb8therobot85@gmail.com>. Packaging: 0BSD.
 Original source notices and licenses remain applicable. Source attribution and
 packaging-policy review remain release prerequisites.

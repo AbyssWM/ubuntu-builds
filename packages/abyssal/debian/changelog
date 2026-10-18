@@ -1,4 +1,4 @@
-abyssal (0.15.0+git20261017.95bbf98-1~ubuntu1) UNRELEASED; urgency=medium
+abyssal (0.15.0+git20261017.95bbf98-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

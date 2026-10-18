@@ -1,4 +1,4 @@
-abysspolkit (0.2.0+git20261017.f121b36-1~ubuntu1) UNRELEASED; urgency=medium
+abysspolkit (0.2.0+git20261017.f121b36-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

@@ -1,4 +1,4 @@
-abysspaper (0.8.4+git20261017.4e06e75-1~ubuntu1) UNRELEASED; urgency=medium
+abysspaper (0.8.4+git20261017.4e06e75-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

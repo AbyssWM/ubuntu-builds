@@ -1,4 +1,4 @@
-xdg-desktop-portal-abyss (1.4.1+git20261017.c4e1197-1~ubuntu1) UNRELEASED; urgency=medium
+xdg-desktop-portal-abyss (1.4.1+git20261017.c4e1197-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

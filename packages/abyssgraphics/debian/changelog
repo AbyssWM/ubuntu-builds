@@ -1,4 +1,4 @@
-abyssgraphics (0.5.1+git20261017.22ddc75-1~ubuntu1) UNRELEASED; urgency=medium
+abyssgraphics (0.5.1+git20261017.22ddc75-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

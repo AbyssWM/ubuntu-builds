@@ -1,4 +1,4 @@
-abyss-guiutils (0.2.2+git20261017.da66469-1~ubuntu1) UNRELEASED; urgency=medium
+abyss-guiutils (0.2.2+git20261017.da66469-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

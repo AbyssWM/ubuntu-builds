@@ -1,4 +1,4 @@
-abysstoolkit (0.6.0+git20261017.9a095e0-1~ubuntu1) UNRELEASED; urgency=medium
+abysstoolkit (0.6.0+git20261017.9a095e0-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
 

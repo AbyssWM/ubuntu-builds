@@ -351,7 +351,8 @@
       "libei"
     ],
     "deb": [
-      "libei-dev"
+      "libei-dev",
+      "libeis-dev"
     ],
     "pc": [
       "libeis-1.0"
