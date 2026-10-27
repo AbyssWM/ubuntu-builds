@@ -1,3 +1,9 @@
+abyssparse (0.6.8+git20261027.6c3c77e-1~ubuntu1) stonking; urgency=medium
+
+  * Update to Abyssparse 6c3c77e: Parser: reset state between parses, stop runaway variable expansion
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Tue, 27 Oct 2026 10:23:16 +0000
+
 abyssparse (0.6.8+git20261017.45d399e-2~ubuntu1) stonking; urgency=medium
 
   * Include restored upstream notices and the complete GPLv3 license text.

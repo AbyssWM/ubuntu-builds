@@ -1,3 +1,9 @@
+abysspicker (0.4.7+git20261027.9724004-1~ubuntu1) stonking; urgency=medium
+
+  * Update to AbyssPicker 9724004: Print the color with %s, ignore input while no surface has the pointer
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Tue, 27 Oct 2026 10:23:38 +0000
+
 abysspicker (0.4.7+git20261017.fa99785-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.

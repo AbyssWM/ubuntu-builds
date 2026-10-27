@@ -1,3 +1,9 @@
+abyss-guiutils (0.2.2+git20261027.b25e097-1~ubuntu1) stonking; urgency=medium
+
+  * Update to Abyss-guiutils b25e097: welcome: save the terminal and file manager to config.hpp instead of abyssland.lua
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Tue, 27 Oct 2026 10:23:33 +0000
+
 abyss-guiutils (0.2.2+git20261017.da66469-1~ubuntu1) stonking; urgency=medium
 
   * Package the explicitly pinned experimental Abyss snapshot.
