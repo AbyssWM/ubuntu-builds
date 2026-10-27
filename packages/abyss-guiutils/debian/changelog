@@ -1,3 +1,9 @@
+abyss-guiutils (0.2.2+git20261027.0afda1e-1~ubuntu1) stonking; urgency=medium
+
+  * Update to Abyss-guiutils 0afda1e: CMake: ignore git info outside an own checkout and strip quotes and semicolons
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Tue, 27 Oct 2026 10:58:13 +0000
+
 abyss-guiutils (0.2.2+git20261027.b25e097-1~ubuntu1) stonking; urgency=medium
 
   * Update to Abyss-guiutils b25e097: welcome: save the terminal and file manager to config.hpp instead of abyssland.lua

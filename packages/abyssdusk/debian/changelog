@@ -1,3 +1,9 @@
+abyssdusk (0.4.0+git20261027.b383b37-1~ubuntu1) stonking; urgency=medium
+
+  * Update to AbyssDusk b383b37: CMake: ignore git info outside an own checkout and strip quotes and semicolons
+
+ -- bb8TheRobot <bb8therobot85@gmail.com>  Tue, 27 Oct 2026 10:58:20 +0000
+
 abyssdusk (0.4.0+git20261027.6c58248-1~ubuntu1) stonking; urgency=medium
 
   * Update to AbyssDusk 6c58248: README: keep one copy of the install, ecosystem and credits sections
